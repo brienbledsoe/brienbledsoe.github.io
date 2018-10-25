@@ -72,6 +72,8 @@ li a:hover {
 }
 
 
+
+
 #videoblock{
     /*background-color:red;*/
     height:300px;
@@ -102,7 +104,7 @@ li a:hover {
 
 }
 
-#titleforvideo{
+.titleforvideo{
     margin-top: 70px;
     font-size: 20px;
     font-weight:bold;
@@ -424,3 +426,139 @@ iframe.map{
     margin-top: 8px;
 }
 
+.video1{
+    display:none;
+}
+
+.image1{
+    display:none;
+}
+
+.displaytext{
+    display:block;
+}
+/*.imagemargin{
+    height:300px;
+    margin-top:-15px;
+    padding: 50px 20px;
+    margin-bottom:60px;
+}
+*/
+/*.imageblock{
+    display:block;
+   
+}*/
+
+@media screen and (max-width: 992px){
+  body {
+    background-color: #ecf0f1;
+
+    }
+
+   div.titleforvideo{
+     font-size:16px;
+   }
+
+   
+   .image1{ /*works like imageblock*/
+    display: block;
+    height:400px;
+   /* padding-left:200px;*/
+    /*padding-left:26.9%;*/
+    /*margin-top: 100px;*/
+    /*margin: 0 auto;*/
+    width:100%;
+  }
+   
+   .imagemargin{
+    height:500px;
+    margin-top:-15px;
+    padding: 50px 20px;
+    margin-bottom:60px;
+    width:100%;
+}
+
+
+.fashionvideo{
+    display:none;
+    
+}
+
+#videoblock{
+    /*background-color:red;*/
+    height:90px;
+    margin-top:-15px;
+    padding: 50px 20px;
+   /* padding: 90px 90px;*/
+}
+
+.displaytext{
+    display:none;
+}
+
+
+   
+}
+
+@media screen and (max-width: 900px) {
+  /*div.example {
+    font-size: 30px;
+  }
+*/
+    
+.picflex-container{
+    margin-top:120px;
+    /*margin-left:52px;*/
+    /*margin:0;*/
+    padding:0;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex-wrap: wrap;
+
+    }
+
+    #Warriortexttitle{
+    font-style: oblique;
+    font-family: "Georgia";
+    text-align: center;
+    font-size:25px;
+    }
+
+.Warriortext{
+    font-style: oblique;
+    font-family: "Georgia";
+    text-align: center;
+    font-size:15px;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:500px) {
+    .imagemargin{
+    height:300px;
+    margin-top:-15px;
+    padding: 50px 20px;
+    margin-bottom:60px;
+    width:100%;
+}
+
+.picflex-container{
+    margin-top:-80px;
+    /*margin-left:52px;*/
+    /*margin:0;*/
+    padding:0;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex-wrap: wrap;
+
+    }
+
+}
