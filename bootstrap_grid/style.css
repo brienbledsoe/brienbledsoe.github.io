@@ -1,0 +1,35 @@
+.container-fluid{
+  background-color:black;
+  /*grid-gap:20px;*/
+  padding:20px;
+}
+
+.postheader{
+  color:white;
+  text-align: center;
+}
+
+.postpic{
+  grid-column-start: 4;
+}
+
+/*.postpicsize{
+  width:400px;
+  height:300px;
+}*/
+
+.footertext{
+  color:white;
+  text-align: center; 
+}
+
+.videodescription{
+  text-align: center;
+  color:white;
+  font-size: 30px; 
+}
+
+.videocenter{
+  grid-column-start: 4; 
+  grid-column-end: 9; 
+}
