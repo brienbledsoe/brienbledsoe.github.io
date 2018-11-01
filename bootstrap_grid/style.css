@@ -13,10 +13,10 @@
   grid-column-start: 4;
 }
 
-/*.postpicsize{
-  width:400px;
-  height:300px;
-}*/
+.postpicsize{
+  width:700px;
+  /*height:300px;*/
+}
 
 .footertext{
   color:white;
