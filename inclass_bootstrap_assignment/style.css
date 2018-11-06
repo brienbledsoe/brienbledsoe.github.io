@@ -1,0 +1,147 @@
+
+
+.container-fluid{
+	padding:20px;
+	/*background-color:#1a1a1a; */
+	/*background-color: white;*/
+	background-color: #000000;
+}
+
+.nav-background{
+	background-color: #bdc3c7;
+}
+
+ul li a{ /*changes the link color to black, could probably also do a learning log over. Took a second to work out*/ 
+	  color: black !important;
+}
+
+.top-buffer{
+	margin-top: 20px; 
+}
+
+.logo-header{
+	width:500px;
+	height: 300px; 
+}
+
+.sauce-pic-size{
+	width:500px;
+	height:304px;
+}
+
+.sauce-pic-size2{
+	width:400px;
+	height:290px;
+}
+
+.picture-video-col{
+	padding-left:20px;
+}
+
+.margin-left{
+	margin-left: -33px; 
+}
+
+.margin-left-post-vid{
+	margin-left: -10px; 
+}
+
+.margin-left-death-sauce{
+	margin-left: 10px;
+}
+
+.taunt-question{
+	color:white;
+	font-size:30px;
+	text-align: center;
+	font-family: Arial; 
+}
+
+.taunt-question-top-margin{ /*I don't know why this eliminated all the margin-left's I created in the previous coloumn*/
+	margin-top:80px;
+}
+
+.saucy-text{
+	text-align: center;
+	font-family: Arial; 
+	color:white;
+}
+
+.eye-gif{
+	width:500px;
+	height:315px;
+}
+
+.button-center{
+	text-align: center;
+}
+
+.button-margin-center{ /*decreasing the top margin in the button div element to place on image*/
+	margin-top:-90px;
+	margin-left:28px;
+}
+
+.footertext{
+  color:white;
+  text-align: center; 
+}
+
+.footer-buffer{
+	margin-top:90px;
+	margin-bottom:-20px;
+}
+
+.eye-row-background{
+	/*background-color: #1a1a1a;*/
+	height:315px;
+}
+
+.footer-background{
+	/*background-color: #333333;*/
+	background-color: #0d0d0d;
+	/*margin-left: 20px;*/
+}
+
+.carousel-top-buffer{
+	margin-top:100px;
+	margin-left:450px;
+	text-align: center;
+}
+
+.carousel-background{
+	height:315px;
+}
+
+#carousel-text{
+	font-size: 15px;
+	color:white;
+}
+
+.start-center-end{
+	height:630px;
+}
+
+.one-sauce{
+	height:315px;
+}
+
+.contact{
+	color:white;
+	font-size: 20px;
+	font-family: Arial; 
+}
+
+.contact-height{
+	height:315px;
+}
+
+.contact-margin{
+	margin-left:60px;
+}
+
+
+
+/*.logo-center{
+	grid-column-start: 4;
+	grid-column-end: 9; 
+}*/
