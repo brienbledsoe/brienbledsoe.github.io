@@ -139,6 +139,12 @@ ul li a{ /*changes the link color to black, could probably also do a learning lo
 	margin-left:60px;
 }
 
+.about-text{
+	color:white;
+	text-align: center;
+
+}
+
 
 
 /*.logo-center{
