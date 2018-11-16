@@ -1,0 +1,310 @@
+.container-fluid{
+	background-color: #e8ecf1; 
+	/*padding-left: 10px;*/ 
+
+}
+
+
+#navtitle{
+	 
+	font-weight:bold;
+	font-size:25px;
+	font-family:"Helvetica";
+}
+
+ul li a{ /*changes the link color to black, could probably also do a learning log over. Took a second to work out*/ 
+	  color: grey !important;
+}
+
+ul li a:hover{
+	color:black !important;
+}
+
+.top-buffer{
+	margin-top:-80px;
+}
+
+
+.picture-header{
+	width:100%;
+	height: 680px; 
+}
+
+#linkedin-background{
+	height:680px;
+}
+
+.skills{
+	text-align: center;
+	font-family: "Helvetica"; 
+	/*font-style: italic;*/ 
+	/*font-weight: bold;*/ 
+	font-size:18px; 
+}
+
+#skills-row{
+	height:100px;
+}
+
+.skills-top-buffer{
+	margin-top:80px;
+}
+
+#footer-background{
+	height:100px;
+	background-color:black;
+}
+
+.footertext{
+  color:white;
+  text-align: center; 
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  /*background: #007bb5;*/
+  /*background: #bfbfbf;*/
+  color: white;
+}
+
+.fa-pinterest {
+  /*background: #cb2027;*/
+  /*background: #bfbfbf;*/
+  color: white;
+}
+
+.fa-github{
+	color:white;
+
+}
+
+#developer-skills-background{
+	height:100px;
+}
+
+#developer-skills-header1{
+	font-weight: bold;
+	font-size:20px; 
+
+}
+
+#developer-skills-header2{
+	font-size:20px;
+}
+
+#about-me-info1{
+	margin-top:30px;
+}
+
+#dumbo-background{
+	height:680px;
+	background-color: black; 
+}
+
+.dumbo-buffer{
+	margin-top:60px;
+}
+
+#dumbo-header{
+	width:100%;
+	height:680px;
+}
+
+.experience-buffer{
+	margin-top:100px;
+}
+
+#experience-background{
+	height:100px;
+}
+
+.experience-list-buffer{
+	margin-top:40px;
+}
+
+#experience-skills-text{
+	font-size:18px;
+}
+
+#experience-text{
+	text-align: center; 
+}
+
+#experience-list-buffer2{
+	margin-top:60px;
+}
+
+.footer-buffer{
+	margin-top: 20px
+}
+
+#skills-background{
+	height:100px;
+}
+
+#list-skills-buffer{
+	margin-top:60px;
+}
+
+.list-skills-height{
+	height:100px;
+}
+
+.about-buffer{
+	margin-top:100px;
+}
+
+#final-skills-text{
+	font-size:18px;
+}
+
+
+#my-skills-header{
+	font-weight: bold;
+	font-size:20px;
+	/*text-align: center;*/ 
+
+}
+
+#my-skills-header2{
+	font-size: 20px;
+	/*text-align: center;*/  
+
+}
+
+
+#my-skills-text{
+	font-size:18px;
+	/*text-align: center;*/ 
+}
+
+#contact-background{
+	height: 160px; 
+}
+
+.test-background-color{ /*for testing margins of columns*/
+	background-color: red; 
+	/*margin-left:10px;*/
+}
+
+.test-background-color2{ /*for testing margins of coloumns */
+	background-color: pink; 
+}
+
+#transit-top-buffer{
+	margin-top:80px;
+}
+
+#work-background{
+	background-color: #e8ecf1;
+}
+
+#metro-title{
+	font-weight: bold;
+	text-align: center; 
+	font-family: "Helvetica"; 
+}
+
+#card-top-margin{
+	margin-top:80px;
+}
+
+#overview-top{
+	margin-top:200px;
+}
+
+#test-text{
+	text-align: center; 
+}
+
+.card-row-height{
+	height:300px;
+}
+
+#recording-top-margin{
+	margin-top: 80px;
+}
+
+#recording-background{
+	height:600px;
+}
+
+#sitemap-background{
+	height:680px;
+}
+
+
+#sitemap{
+	width:720px;
+	height:680px;
+}
+
+#sitemap-top{
+	margin-top: 100px; 
+}
+
+#sitemap-text-background{
+	height:80px;
+}
+
+
+#persona-top{
+	margin-top: 150px;
+}
+
+.actual-sitemap-top{
+	margin-top:80px;
+}
+
+.userflow-top-margin{
+	margin-top:10px;
+}
+
+
+#userflow{
+	width:900px;
+	height:520px;
+}
+
+#userflow-background{
+	height:600px;
+}
+
+#persona{
+	width:700px;
+	height:550px;
+}
+
+#persona-background{
+	height:520px;
+}
+
+
+.persona-top-margin{
+	margin-top:40px;
+}
+
+.soon-to-come-top{
+	margin-top:-100px;
+}
+
+#soon-background{
+	height:100px;
+}
+
+#soon-text{
+	font-weight: bold; 
+}
