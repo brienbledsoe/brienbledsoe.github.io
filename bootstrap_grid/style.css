@@ -1,7 +1,9 @@
 .container-fluid{
   background-color:black;
   /*grid-gap:20px;*/
+  /*background-color: grey; allows me to see the elements when I adjust spacing*/
   padding:20px;
+  
 }
 
 .postheader{
@@ -32,4 +34,13 @@
 .videocenter{
   grid-column-start: 4; 
   grid-column-end: 9; 
+}
+
+.postbackgroundcolor{
+  background-color: #e8ecf1;
+  height:90px; 
+}
+
+.top-buffer {   /*add space vertically between one row and another in the html */
+  margin-top:20px; 
 }

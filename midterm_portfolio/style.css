@@ -74,7 +74,7 @@ li a:hover {
 
 
 
-#videoblock{
+#videoblock1{
     /*background-color:red;*/
     height:300px;
     margin-top:-15px;
@@ -430,9 +430,30 @@ iframe.map{
     display:none;
 }
 
-.image1{
+/*.image1{
     display:none;
+}*/
+
+.image1{ /*works like imageblock*/
+    display: block;
+    height:400px;
+   /* padding-left:200px;*/
+    /*padding-left:26.9%;*/
+    /*margin-top: 100px;*/
+    /*margin: 0 auto;*/
+    width:100%;
+    margin-top:-25px;
+  }
+   
+   .imagemargin{
+    height:500px;
+    margin-top:-20px;
+    margin-left:-18px;
+    padding: 50px 20px;
+    margin-bottom:60px;
+    width:100%;
 }
+
 
 .displaytext{
     display:block;
@@ -449,7 +470,7 @@ iframe.map{
    
 }*/
 
-@media screen and (max-width: 992px){
+/*@media screen and (max-width: 992px){
   body {
     background-color: #ecf0f1;
 
@@ -461,34 +482,35 @@ iframe.map{
 
    
    .image1{ /*works like imageblock*/
-    display: block;
+    /*display: block;
     height:400px;
-   /* padding-left:200px;*/
+    padding-left:200px;*/
     /*padding-left:26.9%;*/
     /*margin-top: 100px;*/
     /*margin: 0 auto;*/
-    width:100%;
-  }
+    /*width:100%;*/
+  /*}*/
    
-   .imagemargin{
+/*   .imagemargin{
     height:500px;
     margin-top:-15px;
     padding: 50px 20px;
     margin-bottom:60px;
     width:100%;
-}
+}*/
 
 
-.fashionvideo{
+/*.fashionvideo{
     display:none;
     
-}
+}*/
 
 #videoblock{
     /*background-color:red;*/
     height:90px;
     margin-top:-15px;
     padding: 50px 20px;
+    margin-bottom: 100px; 
    /* padding: 90px 90px;*/
 }
 
@@ -498,9 +520,68 @@ iframe.map{
 
 
    
+@media only screen and (min-width: 1300px) {
+
+/*body{
+    background-color: red; test to prove that for some reason this break point is not working 
+    color:red;
+}*/
+
+    #videoblock1{
+    height:400px;
+    margin-top:-15px;
+    margin-bottom:190px;
+    /*padding: 50px 20px;*/
+   
+    }
+
+
+.fashionvideo{
+    display:block;
+    /*height:auto;*/
+    margin-left: -50;
+    height:500px;
+    /*margin-bottom:90px*/;
+   /* padding-left:200px;*/
+    /*padding-left:26.9%;*/
+    /*margin-top: 100px;*/
+    /*margin: 0 auto;*/
+    width:50%;
 }
 
-@media screen and (max-width: 900px) {
+
+
+.picflex-container{
+    margin-top:120px;
+    /*margin-left:52px;
+    /*margin:0;*/
+    padding:0;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: wrap;
+
+    }
+
+    #Warriortexttitle{
+    font-style: oblique;
+    font-family: "Georgia";
+    text-align: center;
+    font-size:50px;
+    }
+
+.Warriortext{
+    font-style: oblique;
+    font-family: "Georgia";
+    text-align: center;
+    font-size:20px;
+    }
+
+
+}
+
+@media screen and (max-width: 980px) {
   /*div.example {
     font-size: 30px;
   }
@@ -521,14 +602,14 @@ iframe.map{
 
     #Warriortexttitle{
     font-style: oblique;
-    font-family: "Georgia";
+    font-family: "Helvetica";
     text-align: center;
     font-size:25px;
     }
 
 .Warriortext{
     font-style: oblique;
-    font-family: "Georgia";
+    font-family: "Helvetica";
     text-align: center;
     font-size:15px;
     }
@@ -539,13 +620,13 @@ iframe.map{
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     .imagemargin{
     height:300px;
     margin-top:-15px;
     padding: 50px 20px;
     margin-bottom:60px;
-    width:100%;
+    width:80%;
 }
 
 .picflex-container{
@@ -562,3 +643,35 @@ iframe.map{
     }
 
 }
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("LinkedIn.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .parallexblock{
+    height: 300px;
+    background-color:#c5eff7;
+    font-size:20px;
+    margin-bottom:20px;
+ }
+/*
+   .parallexmargin{
+    height:500px;
+    margin-top:20px;
+    margin-left:-18px;*/
+    /*padding: 50px 20px;
+    margin-bottom:60px;
+    width:100%;
+}*/
