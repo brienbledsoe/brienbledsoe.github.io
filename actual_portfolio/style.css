@@ -337,3 +337,17 @@ ul li a:hover{
 
 
 } /*end of breakpoint*/
+
+.clickable-top-margin{
+	margin-top: 80px; 
+}
+
+#clickable-text{
+	font-weight:bold;
+	font-family: "Helvetica"; 
+	font-size:25px;
+}
+
+.clickable-proto-top{
+	margin-top:70px;
+}
