@@ -338,6 +338,28 @@ ul li a:hover{
 
 } /*end of breakpoint*/
 
+@media (min-width: 2000px) {
+		.picture-header{
+			height:800px;
+		}
+
+		#linkedin-background{
+		height:800px;
+		}
+
+		#dumbo-header{
+			height:800px;
+		
+		}
+
+		#dumbo-background{
+			height:800px;
+			background-color: black; 
+		}
+
+
+	} /*end of breakpoint*/
+
 .clickable-top-margin{
 	margin-top: 80px; 
 }
