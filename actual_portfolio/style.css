@@ -1,5 +1,6 @@
 .container-fluid{
 	background-color: #e8ecf1; 
+	/*background-color: white; */
 	/*padding-left: 10px;*/ 
 
 }
@@ -10,6 +11,10 @@
 	font-weight:bold;
 	font-size:25px;
 	font-family:"Helvetica";
+}
+
+.navtext{
+	font-size: 16px; 
 }
 
 ul li a{ /*changes the link color to black, could probably also do a learning log over. Took a second to work out*/ 
@@ -27,11 +32,14 @@ ul li a:hover{
 
 .picture-header{
 	width:100%;
-	height: 680px; 
+	/*height: 680px;*/
+	height:100%; 
 }
 
 #linkedin-background{
-	height:680px;
+	height:700px;
+	background-color: #e8ecf1; 
+
 }
 
 .skills{
@@ -49,6 +57,138 @@ ul li a:hover{
 .skills-top-buffer{
 	margin-top:80px;
 }
+
+/*.col-lg-12{
+}*/
+
+/*.col-lg-12 img{
+	width:100%;
+	height:100%;
+}
+*/
+.text-wrapper{
+	width:100%;
+	position:relative;
+	margin-top:-10%;
+	margin-left:-40.5%;
+} 
+
+.text-wrapper h1{
+	text-align:center;
+	color:black;
+	font-size:25px;
+	font-family: 'Arimo', sans-serif;
+	opacity: 0.5; 
+
+}
+
+.text-wrapper h2{
+	text-align:center;
+	color: black;
+	font-size:17px;
+	font-family: 'Arimo', sans-serif;
+	opacity:0.5;
+}
+
+.btn.btn-outline-dark:hover{
+	opacity: 0.3; 
+	background-color: #e8ecf1;
+	color:black;
+}
+
+
+.btn.btn-outline-dark{
+	color:black;
+	border-radius: 0; 
+	opacity:0.5;
+	background-color: #e8ecf1;
+	font-size: 15px;  
+}
+
+/*.btn.background-btn{
+	color:black;
+	background-color: white;
+	opacity: 0.2; 
+
+}*/
+#blur{
+ -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(2px);
+}
+
+
+#h2-margin{
+	margin-left:-2%;
+}
+
+#h1-margin{
+	margin-left:10%;
+}
+
+#hire-me-btn-margin{
+	/*display: none;*/ 
+	margin-top:1%; 
+	margin-left:2.3%;
+}
+
+.Brienis-text1{
+	text-align: center;
+	color:black;
+	font-size:15px;
+	font-family:'Playfair Display', serif;
+	opacity: 0.7; 
+}
+
+.Brienis-text2{
+	text-align:center;
+	color:black;
+	font-size:15px;
+	font-family:'Playfair Display', serif;
+	opacity: 0.7; 
+}
+
+.Brienis-text-top{
+	margin-top: 8%; 
+}
+
+/*#mywork{
+  background-color:blue;
+    height:600px;
+}*/
+
+.for-video-size{
+	width:500px;  
+	height:600px;
+}
+
+#metro-header{
+	font-size:25px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold; 
+}
+
+.prototype-description{
+	font-family: 'Arimo', sans-serif;
+	font-size: 15px; 
+}
+
+video:hover {
+	 opacity: 0.7;
+      transition: 0.5s;
+}
+
+.footer-buttons{
+	text-align: center;
+	font-size: 22px; 
+}
+
+#footer-btn-top{
+	margin-top:1%;
+}
+
+
+
+
 
 #footer-background{
 	height:100px;
@@ -71,7 +211,8 @@ ul li a:hover{
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.4;
+    color: white; 
 }
 
 .fa-linkedin {
@@ -105,22 +246,38 @@ ul li a:hover{
 	font-size:20px;
 }
 
-#about-me-info1{
+/*#about-me-info1{
 	margin-top:30px;
 }
+*/
 
-#dumbo-background{
-	height:680px;
-	background-color: black; 
+#video-top-margin{
+	margin-top:5%;
 }
 
-.dumbo-buffer{
-	margin-top:60px;
-}
-
-#dumbo-header{
+#conclusion-width{
 	width:100%;
-	height:680px;
+}
+
+.conclusion-header{
+	font-size:4vh;
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+	text-align: center; 
+}
+
+#conclusion-top-margin{
+	margin-top: 4%;
+	height:150px; 
+}
+
+#conclusion-link{
+	color:black;
+	text-decoration:underline;
+}
+
+#conclusion-link:hover{
+	color:white;
 }
 
 .experience-buffer{
@@ -148,7 +305,7 @@ ul li a:hover{
 }
 
 .footer-buffer{
-	margin-top: 20px
+	margin-top: 3%; 
 }
 
 #skills-background{
@@ -195,14 +352,7 @@ ul li a:hover{
 	height: 160px; 
 }
 
-.test-background-color{ /*for testing margins of columns*/
-	background-color: red; 
-	/*margin-left:10px;*/
-}
 
-.test-background-color2{ /*for testing margins of coloumns */
-	background-color: pink; 
-}
 
 #transit-top-buffer{
 	margin-top:80px;
@@ -252,6 +402,10 @@ ul li a:hover{
 	height:680px;
 }
 
+.soon-to-come-background{
+	height:5%;
+}
+
 #sitemap-top{
 	margin-top: 100px; 
 }
@@ -261,8 +415,16 @@ ul li a:hover{
 }
 
 
-#persona-top{
-	margin-top: 150px;
+.persona-top{
+	margin-top: 4%;
+}
+
+.persona-top-2{
+	margin-top: 6%;
+}
+
+#persona-top-version2{
+	margin-top:4%;
 }
 
 .actual-sitemap-top{
@@ -270,7 +432,7 @@ ul li a:hover{
 }
 
 .userflow-top-margin{
-	margin-top:10px;
+	margin-top:4%;
 }
 
 
@@ -298,7 +460,7 @@ ul li a:hover{
 }
 
 .soon-to-come-top{
-	margin-top:-100px;
+	margin-top:2%;
 }
 
 #soon-background{
@@ -309,53 +471,938 @@ ul li a:hover{
 	font-weight: bold; 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) { /* Small devices (landscape phones, less than 768px)*/
 	.picture-header{
-	width:100%;
-	height: 500px; 
-} /*end of this picture*/
-
-#dumbo-header{
-	width:100%;
-	height:500px;
-} /*end of this picture*/
-
-#dumbo-background{
-	height:500px;
-	background-color: black; 
-} /*end of background*/
-
-.about-buffer{
-	margin-top:-72px;
-}
-
-} /*end of breakpoint*/
-
-
-@media (max-width: 576px) {
-
-
-
-} /*end of breakpoint*/
-
-@media (min-width: 2000px) {
-		.picture-header{
-			height:800px;
+			height:100%;
 		}
 
 		#linkedin-background{
-		height:800px;
+		/*height:900px;*/
+		height:20%; /*check background on smaller screen*/
+		/*background-color: black; */
 		}
 
-		#dumbo-header{
-			height:800px;
-		
+		#navtitle{
+		font-weight:bold;
+		font-size:20px;
+		font-family:"Helvetica";
 		}
 
-		#dumbo-background{
-			height:800px;
-			background-color: black; 
+
+		.navtext{
+		font-size: 12px; 
 		}
+
+		#h2-margin{
+		margin-left:2.7%;
+		}
+
+		#h1-margin{
+		margin-left:13%;
+		}
+
+		.text-wrapper{
+		width:100%;
+		position:relative;
+		margin-top:-13%;
+		margin-left:-40.5%;
+		} 
+
+		.text-wrapper h1{
+			text-align:center;
+			color:black;
+			font-size:14px;
+			font-family: 'Arimo', sans-serif;
+			opacity: 0.5; 
+
+			}
+
+		.text-wrapper h2{
+		text-align:center;
+		color: black;
+		font-size:12px;
+		font-family: 'Arimo', sans-serif;
+		opacity:0.5;
+		}
+
+		#hire-me-btn-margin{
+		display: block; 
+		margin-top:1%; 
+		margin-left:2.1%;
+		}
+
+		.btn.btn-outline-dark{
+		color:black;
+		border-radius: 0; 
+		opacity:0.5;
+		background-color: #e8ecf1;
+		font-size: 10px;  
+		}
+
+		.Brienis-text1{
+		text-align: center;
+		color:black;
+		font-size:13px;
+		font-family:'Playfair Display', serif;
+		opacity: 0.7; 
+		}
+
+		.Brienis-text2{
+		text-align:center;
+		color:black;
+		font-size:13px;
+		font-family:'Playfair Display', serif;
+		opacity: 0.7; 
+		}
+
+		/*.Brienis-text-top{
+		margin-top: 8%; 
+		}*/
+
+		#metro-header{
+	 	font-size:20px;
+		font-family: 'Arimo', sans-serif;
+		font-weight: bold; 
+		}
+
+		video:hover {
+	 	opacity: 0.7;
+	 	/*opacity: 0.9; */
+      	transition: 0.5s;
+		}	
+
+		.for-video-size{
+		width:300px;  
+		/*height:600px;*/
+		height:400px;
+		}
+
+		#conclusion-link:hover{
+		color:white;
+		}
+
+		#conclusion-link{
+		color:black;
+		text-decoration:underline;
+		}
+
+		.conclusion-header{
+		font-size:3vh;
+		font-family: 'Arimo', sans-serif;
+		font-weight: bold;
+		text-align: center; 
+		}
+
+		#footer-background{
+		height:5%;
+		background-color:black;
+		}
+
+		.footertext{
+	  	color:white;
+	  	text-align: center; 
+		}
+
+		#footer-btn-top{
+		margin-top:0.5%;
+		}
+
+
+		.fa {
+	  	padding: 20px;
+	  	font-size: 30px;
+	  	width: 30px;
+	  	text-align: center;
+	  	text-decoration: none;
+	  	margin: 5px 2px;
+	  	border-radius: 50%;
+		}
+
+		.fa:hover {
+	    opacity: 0.4;
+	    color: white; 
+		}
+
+		.fa-linkedin {
+	  	/*background: #007bb5;*/
+	  	/*background: #bfbfbf;*/
+	  	color: white;
+		}
+
+		.fa-pinterest {
+	  	/*background: #cb2027;*/
+	  	/*background: #bfbfbf;*/
+	  	color: white;
+		}
+
+		.fa-github{
+		color:white;
+
+		}
+
+		.footer-buttons{
+		text-align: center;
+		font-size: 20px; 
+		}
+
+		.prototype-description{
+		font-family: 'Arimo', sans-serif;
+		font-size: 15px; 
+		}
+
+
+} /*end of breakpoint*/
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {/*Medium devices (tablets, less than 992px)*/
+	.picture-header{
+			height:100%;
+		}
+
+		#linkedin-background{
+		/*height:900px;*/
+		height:20%;
+		}
+
+		#blur{
+	 	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+	  	filter: blur(2px);
+		}
+
+		#navtitle{
+		font-weight:bold;
+		font-size:20px;
+		font-family:"Helvetica";
+		}
+
+
+		.navtext{
+		font-size: 16px; 
+		}
+
+		#h2-margin{
+		margin-left:2.7%;
+		}
+
+		#h1-margin{
+		margin-left:13%;
+		}
+
+		.text-wrapper{
+		width:100%;
+		position:relative;
+		margin-top:-10%;
+		margin-left:-40.5%;
+		} 
+
+		.text-wrapper h1{
+			text-align:center;
+			color:black;
+			font-size:18px;
+			font-family: 'Arimo', sans-serif;
+			opacity: 0.5; 
+
+			}
+
+		.text-wrapper h2{
+		text-align:center;
+		color: black;
+		font-size:15px;
+		font-family: 'Arimo', sans-serif;
+		opacity:0.5;
+		}
+
+		#hire-me-btn-margin{
+		display: block; 
+		margin-top:1%; 
+		margin-left:2.1%;
+		}
+
+		.btn.btn-outline-dark{
+		color:black;
+		border-radius: 0; 
+		opacity:0.5;
+		background-color: #e8ecf1;
+		font-size: 10px;  
+		}
+
+		.Brienis-text1{
+		text-align: center;
+		color:black;
+		font-size:15px;
+		font-family:'Playfair Display', serif;
+		opacity: 0.7; 
+		}
+
+		.Brienis-text2{
+		text-align:center;
+		color:black;
+		font-size:15px;
+		font-family:'Playfair Display', serif;
+		opacity: 0.7; 
+		}
+
+		/*.Brienis-text-top{
+		margin-top: 8%; 
+		}*/
+
+		#metro-header{
+	 	font-size:25px;
+		font-family: 'Arimo', sans-serif;
+		font-weight: bold; 
+		}
+
+		video:hover {
+	 	opacity: 0.7;
+	 	/*opacity: 0.9; */
+      	transition: 0.5s;
+		}	
+
+		.for-video-size{
+		width:300px;  
+		/*height:600px;*/
+		height:400px;
+		}
+
+		#conclusion-link:hover{
+		color:white;
+		}
+
+		#conclusion-link{
+		color:black;
+		text-decoration:underline;
+		}
+
+		.conclusion-header{
+		font-size:3vh;
+		font-family: 'Arimo', sans-serif;
+		font-weight: bold;
+		text-align: center; 
+		}
+
+		#footer-background{
+		height:5%;
+		background-color:black;
+		}
+
+		.footertext{
+	  	color:white;
+	  	text-align: center; 
+		}
+
+		#footer-btn-top{
+		margin-top:0.5%;
+		}
+
+
+		.fa {
+	  	padding: 20px;
+	  	font-size: 30px;
+	  	width: 30px;
+	  	text-align: center;
+	  	text-decoration: none;
+	  	margin: 5px 2px;
+	  	border-radius: 50%;
+		}
+
+		.fa:hover {
+	    opacity: 0.4;
+	    color: white; 
+		}
+
+		.fa-linkedin {
+	  	/*background: #007bb5;*/
+	  	/*background: #bfbfbf;*/
+	  	color: white;
+		}
+
+		.fa-pinterest {
+	  	/*background: #cb2027;*/
+	  	/*background: #bfbfbf;*/
+	  	color: white;
+		}
+
+		.fa-github{
+		color:white;
+
+		}
+
+		.footer-buttons{
+		text-align: center;
+		font-size: 20px; 
+		}
+
+		.prototype-description{
+		font-family: 'Arimo', sans-serif;
+		font-size: 15px; 
+		}
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+	.picture-header{
+			height:100%;
+		}
+
+		#linkedin-background{
+		/*height:900px;*/
+		height:20%;
+		}
+
+		#navtitle{
+		font-weight:bold;
+		font-size:20px;
+		font-family:"Helvetica";
+		}
+
+
+		.navtext{
+		font-size: 16px; 
+		}
+
+		#h2-margin{
+		margin-left:-0.4%;
+		}
+
+		#h1-margin{
+		margin-left:8%;
+		}
+
+		.text-wrapper{
+		width:100%;
+		position:relative;
+		margin-top:-10%;
+		margin-left:-40.5%;
+		} 
+
+		.text-wrapper h1{
+			text-align:center;
+			color:black;
+			font-size:18px;
+			font-family: 'Arimo', sans-serif;
+			opacity: 0.5; 
+
+			}
+
+		.text-wrapper h2{
+		text-align:center;
+		color: black;
+		font-size:15px;
+		font-family: 'Arimo', sans-serif;
+		opacity:0.5;
+		}
+
+		#hire-me-btn-margin{
+		display: block; 
+		margin-top:1%; 
+		margin-left:2.1%;
+		}
+
+		.btn.btn-outline-dark{
+		color:black;
+		border-radius: 0; 
+		opacity:0.5;
+		background-color: #e8ecf1;
+		font-size: 10px;  
+		}
+
+		.Brienis-text1{
+		text-align: center;
+		color:black;
+		font-size:15px;
+		font-family:'Playfair Display', serif;
+		opacity: 0.7; 
+		}
+
+		.Brienis-text2{
+		text-align:center;
+		color:black;
+		font-size:15px;
+		font-family:'Playfair Display', serif;
+		opacity: 0.7; 
+		}
+
+		/*.Brienis-text-top{
+		margin-top: 8%; 
+		}*/
+
+		#metro-header{
+	 	font-size:25px;
+		font-family: 'Arimo', sans-serif;
+		font-weight: bold; 
+		}
+
+		video:hover {
+	 	opacity: 0.7;
+	 	/*opacity: 0.9; */
+      	transition: 0.5s;
+		}	
+
+		.for-video-size{
+		width:300px;  
+		/*height:600px;*/
+		height:400px;
+		}
+
+		#conclusion-link:hover{
+		color:white;
+		}
+
+		#conclusion-link{
+		color:black;
+		text-decoration:underline;
+		}
+
+		#footer-background{
+		height:5%;
+		background-color:black;
+		}
+
+		.conclusion-header{
+		font-size:3vh;
+		font-family: 'Arimo', sans-serif;
+		font-weight: bold;
+		text-align: center; 
+		}
+
+		.footertext{
+	  	color:white;
+	  	text-align: center; 
+		}
+
+		#footer-btn-top{
+		margin-top:0.5%;
+		}
+
+
+		.fa {
+	  	padding: 20px;
+	  	font-size: 30px;
+	  	width: 30px;
+	  	text-align: center;
+	  	text-decoration: none;
+	  	margin: 5px 2px;
+	  	border-radius: 50%;
+		}
+
+		.fa:hover {
+	    opacity: 0.4;
+	    color: white; 
+		}
+
+		.fa-linkedin {
+	  	/*background: #007bb5;*/
+	  	/*background: #bfbfbf;*/
+	  	color: white;
+		}
+
+		.fa-pinterest {
+	  	/*background: #cb2027;*/
+	  	/*background: #bfbfbf;*/
+	  	color: white;
+		}
+
+		.fa-github{
+		color:white;
+
+		}
+
+		.footer-buttons{
+		text-align: center;
+		font-size: 20px; 
+		}
+
+		.prototype-description{
+		font-family: 'Arimo', sans-serif;
+		font-size: 15px; 
+		}
+
+		#blur{
+	 	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+	  	filter: blur(2px);
+		}
+
+}
+
+
+@media (max-width: 576px) { /*Extra small devices (portrait phones, less than 576px)*/
+	
+       .picture-header{
+			height:100%;
+		}
+
+		#linkedin-background{
+		/*height:900px;*/
+		height:20%;
+		}
+
+		#navtitle{
+		font-weight:bold;
+		font-size:15px;
+		font-family:"Helvetica";
+		}
+
+		.conclusion-header{
+		font-size:3vh;
+		font-family: 'Arimo', sans-serif;
+		font-weight: bold;
+		text-align: center; 
+		}
+
+		#conclusion-top-margin{
+		margin-top: -15%;
+		height:150px; 
+		}
+
+
+		#blur{
+	 	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+	  	filter: blur(2px);
+		}
+
+		.navtext{
+		font-size: 12px; 
+		}
+
+		#h2-margin{
+		margin-left:2.7%;
+		}
+
+		#h1-margin{
+		margin-left:17.8%;
+		}
+
+		.text-wrapper{
+		width:100%;
+		position:relative;
+		margin-top:-14%;
+		margin-left:-40.5%;
+		} 
+
+		.text-wrapper h1{
+			text-align:center;
+			color:black;
+			font-size:13px;
+			font-family: 'Arimo', sans-serif;
+			opacity: 0.5; 
+
+			}
+
+		.text-wrapper h2{
+		text-align:center;
+		color: black;
+		font-size:10px;
+		font-family: 'Arimo', sans-serif;
+		opacity:0.5;
+		}
+
+		#hire-me-btn-margin{
+		display: block; 
+		margin-top:1%; 
+		margin-left:0.8%;
+		}
+
+		.btn.btn-outline-dark{
+		color:black;
+		border-radius: 0; 
+		opacity:0.5;
+		background-color: #e8ecf1;
+		font-size: 8px;  
+		}
+
+		.Brienis-text1{
+		text-align: center;
+		color:black;
+		font-size:10px;
+		font-family:'Playfair Display', serif;
+		opacity: 0.7; 
+		}
+
+		.Brienis-text2{
+		text-align:center;
+		color:black;
+		font-size:10px;
+		font-family:'Playfair Display', serif;
+		opacity: 0.7; 
+		}
+
+		/*.test{
+			background-color: red; 
+		}
+
+		.test2{
+			background-color: blue; 
+		}*/
+
+		/*.Brienis-text-top{
+		margin-top: 8%; 
+		}*/
+
+		#metro-header{
+	 	font-size:15px;
+		font-family: 'Arimo', sans-serif;
+		font-weight: bold; 
+		}
+
+		video:hover {
+	 	opacity: 0.7;
+	 	/*opacity: 0.9; */
+      	transition: 0.5s;
+		}	
+
+		.for-video-size{
+		width:200px;  
+		/*height:600px;*/
+		height:400px;
+		}
+
+		#conclusion-link:hover{
+		color:white;
+		}
+
+		#conclusion-link{
+		color:black;
+		text-decoration:underline;
+		}
+
+		#footer-background{
+		height:5%;
+		background-color:black;
+		}
+
+		.footertext{
+	  	color:white;
+	  	text-align: center; 
+		}
+
+		#footer-btn-top{
+		margin-top:0.5%;
+		}
+
+
+		.fa {
+	  	padding: 20px;
+	  	font-size: 30px;
+	  	width: 30px;
+	  	text-align: center;
+	  	text-decoration: none;
+	  	margin: 5px 2px;
+	  	border-radius: 50%;
+		}
+
+		.fa:hover {
+	    opacity: 0.4;
+	    color: white; 
+		}
+
+		.fa-linkedin {
+	  	/*background: #007bb5;*/
+	  	/*background: #bfbfbf;*/
+	  	color: white;
+		}
+
+		.fa-pinterest {
+	  	/*background: #cb2027;*/
+	  	/*background: #bfbfbf;*/
+	  	color: white;
+		}
+
+		.fa-github{
+		color:white;
+
+		}
+
+		.footer-buttons{
+		text-align: center;
+		font-size: 16px; 
+		}
+
+		/*.footer-buttons:hover {
+	    opacity: 0.4;
+	    color: white; 
+		}*/
+
+		.prototype-description{
+		font-family: 'Arimo', sans-serif;
+		font-size: 10px; 
+		}
+
+} /*end of breakpoint*/
+
+@media (min-width: 1202px) and (max-width: 1650px) {
+		.picture-header{
+			height:80%;
+		}
+
+		#linkedin-background{
+		/*height:900px;*/
+		height:20%;
+		/*background-color: black;*/
+		}
+
+		#navtitle{
+		font-weight:bold;
+		font-size:25px;
+		font-family:"Helvetica";
+		}
+
+
+		.navtext{
+		font-size: 16px; 
+		}
+
+		#h2-margin{
+		margin-left:-4%;
+		}
+
+		#h1-margin{
+		margin-left:6%;
+		}
+
+		.text-wrapper{
+		width:100%;
+		position:relative;
+		margin-top:-10%;
+		margin-left:-40.5%;
+		} 
+
+		.text-wrapper h1{
+			text-align:center;
+			color:black;
+			font-size:22px;
+			font-family: 'Arimo', sans-serif;
+			opacity: 0.5; 
+
+			}
+
+		.text-wrapper h2{
+		text-align:center;
+		color: black;
+		font-size:16px;
+		font-family: 'Arimo', sans-serif;
+		opacity:0.5;
+		}
+
+		#hire-me-btn-margin{
+		display: block; 
+		margin-top:1%; 
+		margin-left:1.5%;
+		}
+
+		.btn.btn-outline-dark{
+		color:black;
+		border-radius: 0; 
+		opacity:0.5;
+		background-color: #e8ecf1;
+		font-size: 16px;  
+		}
+
+		.Brienis-text1{
+		text-align: center;
+		color:black;
+		font-size:16px;
+		font-family:'Playfair Display', serif;
+		opacity: 0.7; 
+		}
+
+		.Brienis-text2{
+		text-align:center;
+		color:black;
+		font-size:16px;
+		font-family:'Playfair Display', serif;
+		opacity: 0.7; 
+		}
+
+		.Brienis-text-top{
+		margin-top: -4%; 
+		}
+
+		#metro-header{
+	 	font-size:27px;
+		font-family: 'Arimo', sans-serif;
+		font-weight: bold; 
+		}
+
+		video:hover {
+	 	opacity: 0.7;
+	 	/*opacity: 0.9; */
+      	transition: 0.5s;
+		}	
+
+		.for-video-size{
+		width:400px;  
+		/*height:600px;*/
+		height:500px;
+		}
+
+		#conclusion-link:hover{
+		color:white;
+		}
+
+		#conclusion-link{
+		color:black;
+		text-decoration:underline;
+		}
+
+		.conclusion-header{
+		font-size:3.5vh;
+		font-family: 'Arimo', sans-serif;
+		font-weight: bold;
+		text-align: center; 
+		}
+
+		#footer-background{
+		height:100px;
+		background-color:black;
+		}
+
+		.footertext{
+	  	color:white;
+	  	text-align: center; 
+		}
+
+		.fa {
+	  	padding: 20px;
+	  	font-size: 30px;
+	  	width: 30px;
+	  	text-align: center;
+	  	text-decoration: none;
+	  	margin: 5px 2px;
+	  	border-radius: 50%;
+		}
+
+		.fa:hover {
+	    opacity: 0.4;
+	    color: white; 
+		}
+
+		.fa-linkedin {
+	  	/*background: #007bb5;*/
+	  	/*background: #bfbfbf;*/
+	  	color: white;
+		}
+
+		.fa-pinterest {
+	  	/*background: #cb2027;*/
+	  	/*background: #bfbfbf;*/
+	  	color: white;
+		}
+
+		.fa-github{
+		color:white;
+
+		}
+
+		.footer-buttons{
+		text-align: center;
+		font-size: 23px; 
+		}
+
+		.prototype-description{
+		font-family: 'Arimo', sans-serif;
+		font-size: 18px; 
+		}
+
 
 
 	} /*end of breakpoint*/
@@ -364,9 +1411,11 @@ ul li a:hover{
 	margin-top: 80px; 
 }
 
-#clickable-text{
+
+.clickable-text{
 	font-weight:bold;
-	font-family: "Helvetica"; 
+	/*font-family: "Helvetica";*/
+	font-family: 'Arimo', sans-serif; 
 	font-size:25px;
 }
 
