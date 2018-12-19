@@ -129,7 +129,7 @@ ul li a:hover{
 }*/
 #blur{
  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-  filter: blur(2px);
+  filter: blur(1px);
 }
 
 
@@ -701,7 +701,7 @@ video:hover {
 
 		#blur{
 	 	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-	  	filter: blur(2px);
+	  	filter: blur(1px);
 		}
 
 		#navtitle{
@@ -1058,7 +1058,7 @@ video:hover {
 
 		#blur{
 	 	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-	  	filter: blur(2px);
+	  	filter: blur(1px);
 		}
 
 		#persona-top-version2{
@@ -1100,7 +1100,7 @@ video:hover {
 
 		#blur{
 	 	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-	  	filter: blur(2px);
+	  	filter: blur(1px);
 		}
 
 		.navtext{
