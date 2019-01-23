@@ -455,7 +455,7 @@ video:hover {
 }
 
 .persona-top-2{
-	margin-top: 6%;
+	margin-top: 9%;
 }
 
 #persona-top-version2{
@@ -492,6 +492,32 @@ video:hover {
 
 .persona-top-margin{
 	margin-top:40px;
+}
+
+#joel{
+	width:400px;
+	height:300px;
+}
+
+#joel-background{
+	height:400px;
+}
+
+#joyce{
+	width:400px;
+	height:300px;
+}
+
+.usability-topmargin{
+	height: 50px; 
+}
+
+#usability-background{
+	height:500px;
+}
+
+.spanmod{
+	font-weight: bold;
 }
 
 .soon-to-come-top{
